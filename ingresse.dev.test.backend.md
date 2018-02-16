@@ -44,5 +44,3 @@ The points below are requirements for the completion of the project:
 ### Extra points:
 
 - Provide Unit Test Coverage Reports.
-
-- Integrate the principles of behavior-driven development (BDD), ideally using the Behat framework.
