@@ -20,12 +20,12 @@ The points below are requirements for the completion of the project:
 
 - You must implement Unit Tests for at least one method.
 
-- Use Docker for the project's infrastructure.
-
 - Provide documentation of how to setup, run and test your project (README.md).
 
 
 ### We Recommend:
+
+- Use Docker for the project's infrastructure.
 
 - Configure an NGINX server for the project.
 
