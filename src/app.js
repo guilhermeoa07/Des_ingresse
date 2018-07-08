@@ -9,13 +9,13 @@ const router = express.Router();
 mongoose.connect('');
 
 //carrega os models
-const autor = require('./');
+const usuario = require('./models/usuario');
 
 //Carrega as rotas
-const autor_routers = require('./');
+const usuario_routers = require('./.');
 
 
 //define acesso as rotas
-app.use('/', autor_routers);
+app.use('/', usuario_routers);
 
 module.exports = app;

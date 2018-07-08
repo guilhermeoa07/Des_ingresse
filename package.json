@@ -20,6 +20,7 @@
   },
   "homepage": "https://gist.github.com/a22c924906ff63cb91729166c7f92764",
   "dependencies": {
+    "crypto": "^1.0.1",
     "express": "^4.16.3"
   },
   "devDependencies": {
