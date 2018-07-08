@@ -1,0 +1,28 @@
+{
+  "name": "a22c924906ff63cb91729166c7f92764",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "a22c924906ff63cb91729166c7f92764": "server.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gist.github.com/a22c924906ff63cb91729166c7f92764.git"
+  },
+  "author": "Guilherme Oliveira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gist.github.com/a22c924906ff63cb91729166c7f92764"
+  },
+  "homepage": "https://gist.github.com/a22c924906ff63cb91729166c7f92764",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}
