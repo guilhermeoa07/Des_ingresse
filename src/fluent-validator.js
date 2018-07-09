@@ -25,4 +25,10 @@ ValidationContract.prototype.isValid = () => {
 ValidationContract.prototype.errors = () => {
     return errors;
 };
+ValidationContract.prototype.isEmail = (value, message) => {
+    var reg = new RegExp(/^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$/);
+    if (!reg.test(value))
+        errors.push({ message: message });
+};
+
 module.exports = ValidationContract;

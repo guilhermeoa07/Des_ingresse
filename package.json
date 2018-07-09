@@ -7,7 +7,7 @@
     "a22c924906ff63cb91729166c7f92764": "server.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./src/usuario.teste | tap-spec"
   },
   "repository": {
     "type": "git",
@@ -20,8 +20,11 @@
   },
   "homepage": "https://gist.github.com/a22c924906ff63cb91729166c7f92764",
   "dependencies": {
+    "body-parser": "^1.18.3",
     "crypto": "^1.0.1",
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "mongoose": "^5.2.1",
+    "tape": "^4.9.1"
   },
   "devDependencies": {
     "nodemon": "^1.17.5"
